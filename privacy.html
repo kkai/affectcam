@@ -4,37 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Affectcam: Privacy Policy</title>
+<link rel="icon" href="assets/icon-64.png">
 <style>
-  :root {
-    --ground: #f3f1f8; --card: #ffffff; --text: #1b1830; --soft: rgba(27,24,48,.7);
-    --accent: #4b3bb5; --hairline: rgba(27,24,48,.12); --band: #2a2356;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --ground: #0e0d16; --card: #1a1826; --text: #ece9f7; --soft: rgba(236,233,247,.7);
-      --accent: #a99dff; --hairline: rgba(236,233,247,.12);
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0; background: var(--ground); color: var(--text);
-    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    border-top: 10px solid var(--band); padding: 44px 16px 90px;
-  }
-  main { max-width: 660px; margin: 0 auto; background: var(--card);
-         border: 1px solid var(--hairline); border-radius: 14px; padding: 36px 28px; }
-  h1 { font-size: 30px; margin: 0 0 4px; }
-  h2 { font-size: 19px; margin: 30px 0 8px; }
-  p { margin: 0 0 14px; }
-  .updated { color: var(--soft); font-size: 15px; margin-bottom: 26px; }
-  a { color: var(--accent); }
-  footer { max-width: 660px; margin: 24px auto 0; color: var(--soft); font-size: 14px; }
+@font-face { font-family: "Fira Sans"; font-weight: 400; font-display: swap; src: url(assets/fira-book.woff2) format("woff2"); }
+@font-face { font-family: "Fira Sans"; font-weight: 800; font-display: swap; src: url(assets/fira-heavy.woff2) format("woff2"); }
+:root { --bg: #150d36; --card: #1f1650; --ink: #f6f4ff; --soft: rgba(246,244,255,.72); --line: rgba(246,244,255,.14); --accent: #ff7060; }
+@media (prefers-color-scheme: light) {
+  :root { --bg: #f6f4ff; --card: #ffffff; --ink: #1b1534; --soft: rgba(27,21,52,.7); --line: rgba(27,21,52,.12); --accent: #c2402f; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.65 "Fira Sans", system-ui, sans-serif; padding: 40px 16px 90px; }
+main { max-width: 680px; margin: 0 auto; background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 36px 28px; }
+.top { max-width: 680px; margin: 0 auto 22px; display: flex; align-items: center; gap: 12px; font-weight: 400; text-decoration: none; color: inherit; }
+.top img { width: 40px; height: 40px; border-radius: 10px; }
+h1 { font-size: 2.2rem; font-weight: 800; letter-spacing: -0.02em; margin: 0 0 4px; }
+h2 { font-size: 1.2rem; font-weight: 800; margin: 30px 0 8px; }
+p { margin: 0 0 14px; }
+.updated { color: var(--soft); font-size: 15px; margin-bottom: 26px; }
+a { color: var(--accent); }
+footer { max-width: 680px; margin: 24px auto 0; color: var(--soft); font-size: 14px; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 </style>
 </head>
 <body>
+<a class="top" href="./"><img src="assets/icon-180.png" width="40" height="40" alt=""> Affectcam</a>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="updated">Affectcam &middot; 30 September 2026</p>
+  <p class="updated">Affectcam &middot; 1 October 2026</p>
 
   <p>Affectcam collects no information about you. It has no sign-in, no analytics,
   no advertising and no tracking, and it sends nothing to me or to anyone else.</p>
