@@ -148,7 +148,7 @@ section { padding: clamp(64px, 10vw, 128px) 0; }
 .faq details:last-of-type { border-bottom: 1px solid var(--line); }
 .faq summary { cursor: pointer; font-weight: 500; font-size: 1.15rem; list-style: none; display: flex; justify-content: space-between; gap: 20px; }
 .faq summary::after { content: "+"; font-weight: 800; color: var(--coral); }
-.faq details[open] summary::after { content: "–"; }
+.faq details[open] summary::after { content: "\2212"; }
 .faq details p { margin-top: 12px; color: var(--mist); }
 .faq h2 { margin-bottom: 36px; }
 
@@ -192,13 +192,13 @@ footer nav { display: flex; gap: 22px; }
       <figure><div class="phone"><img src="assets/shot-corner.jpg" width="414" height="896" loading="lazy" alt="Picture in picture: a basketball game full screen, the cheering spectator in the corner"></div>
         <figcaption><b>Corner</b><span>Drag the inset anywhere, pinch to resize.</span></figcaption></figure>
       <figure><div class="phone"><img src="assets/shot-swapped.jpg" width="414" height="896" loading="lazy" alt="Swapped picture in picture: the presenter full screen, the street outside in the corner"></div>
-        <figcaption><b>Swapped</b><span>You big, the scene small. One tap.</span></figcaption></figure>
+        <figcaption><b>Swapped</b><span>Your face fills the screen and the scene sits in the corner. One tap swaps them.</span></figcaption></figure>
       <figure><div class="phone"><img src="assets/shot-stacked.jpg" width="414" height="896" loading="lazy" alt="Split top and bottom: a dog running ahead on a park path above, its laughing owner below"></div>
         <figcaption><b>Stacked</b><span>The way ahead on top, you below.</span></figcaption></figure>
       <figure><div class="phone"><img src="assets/shot-side.jpg" width="414" height="896" loading="lazy" alt="Side by side: two people talking across a café table, one on each half"></div>
         <figcaption><b>Side by side</b><span>Two people facing each other, both in frame.</span></figcaption></figure>
       <figure><div class="phone"><img src="assets/shot-cutout.jpg" width="414" height="896" loading="lazy" alt="Cutout: the hiker lifted out of the selfie camera and placed in front of the mountain view"></div>
-        <figcaption><b>Cutout</b><span>You, placed into the view. Pro.</span></figcaption></figure>
+        <figcaption><b>Cutout</b><span>You, placed into the view (Pro).</span></figcaption></figure>
     </div>
   </div>
 </section>
@@ -226,7 +226,7 @@ footer nav { display: flex; gap: 22px; }
       </article>
       <article class="card">
         <div class="frame side"><img src="assets/uc-talk-back.jpg" loading="lazy" alt="The guest laughing across the table"><img src="assets/uc-talk-front.jpg" loading="lazy" alt="The host talking"></div>
-        <h3>Conversations</h3><p>Put the phone on the table between you. Both faces, side by side.</p>
+        <h3>Conversations</h3><p>Put the phone on the table between you, and it records both faces side by side.</p>
       </article>
     </div>
   </div>
@@ -262,7 +262,7 @@ footer nav { display: flex; gap: 22px; }
 <figure class="band">
   <img src="assets/street.jpg" srcset="assets/street-1000.jpg 1000w, assets/street.jpg 1800w" sizes="100vw" width="1800" height="1200" loading="lazy"
        alt="A man films a rainy neon street at night. On his phone the street is on top and his own face below, recorded at the same time.">
-  <figcaption class="wrap">Point it at the world, and it films you too.</figcaption>
+  <figcaption class="wrap">Film the street ahead and your own face at the same time.</figcaption>
 </figure>
 
 <section class="privacy" aria-labelledby="privacy-h">
@@ -270,7 +270,7 @@ footer nav { display: flex; gap: 22px; }
     <h2 id="privacy-h">Nothing leaves your phone unless you export it</h2>
     <ul>
       <li>Video, person masks and face analysis are computed on the device.</li>
-      <li>No network code, no account, no ads, no tracking.</li>
+      <li>The app has no network code and needs no account. It shows no ads and tracks nothing.</li>
       <li>You choose where an export goes: Photos or the share sheet.</li>
       <li><a href="privacy.html">Read the privacy policy</a></li>
     </ul>
@@ -282,7 +282,7 @@ footer nav { display: flex; gap: 22px; }
     <h2 id="plans-h">Free to use, one purchase for more</h2>
     <div class="plans">
       <div class="plan">
-        <h3>Free</h3><p class="cost">No watermark, no limits on takes</p>
+        <h3>Free</h3><p class="cost">Every take without a watermark</p>
         <ul>
           <li>Corner, swapped, stacked and side by side, over the back camera or a video</li>
           <li>Unlimited takes</li>
